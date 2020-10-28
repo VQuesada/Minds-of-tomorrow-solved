@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the header */
+
+.header {
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10% 2%;
+    text-align: center;
+    height: 100vh;
+}
+
+.header h1 {
+    font-size: 6vw;
+}
+
+
+/*Styles one-column*/
+
+.one-column {
+    float: left;
+    width: 100%;
+    padding: 3% 13%;
+}
+
+.one-column h1 {
+    text-align: center;
+    font-size: 12vh;
+}
+
+
+/*style the two-columns*/
+
+.two-column {
+    float: left;
+    width: 50%;
+    padding: 2%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 5vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+
+/*Styles four-columns*/
+
+.four-column {
+    float: left;
+    width: 25%;
+    padding: 2%;
+    text-align: center;
+}
+
+.four-column h2 {
+    font-size: 2vw;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+#greenback {
+    background-color: #28ECA5;
+}
