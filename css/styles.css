@@ -47,6 +47,10 @@ body {
     font-size: 12vh;
 }
 
+#bluefondo {
+    background-color: #46A6FC;
+}
+
 
 /*style the two-columns*/
 
@@ -79,13 +83,83 @@ body {
 }
 
 .four-column h2 {
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .four-column img {
     width: 100%;
 }
 
+.withoutpadding {
+    padding: 0%;
+    margin-bottom: -5px;
+}
+
 #greenback {
     background-color: #28ECA5;
+}
+
+
+/*Styles footer*/
+
+#blackfondo {
+    background-color: black;
+    color: white;
+}
+
+#blackfondo p {
+    font-size: 20px;
+}
+
+#blackfondo .two-column {
+    padding: 3%;
+}
+
+#blackfondo .four-column {
+    text-align: left;
+}
+
+
+/*Clases auxiliares*/
+
+
+/*Responsive layout*/
+
+@media screen and (max-width:700px) {
+    /* Responsive layout */
+    .two-column {
+        width: 100%;
+    }
+    .one-column {
+        padding: 15% 10%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4.2vW;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .four-column h2 {
+        font-size: 4vh;
+    }
+    .header {
+        background-image: url('../img/banner-3.jpg');
+        background-size: cover;
+    }
+    .header h1 {
+        font-size: 14vh;
+    }
+    #blackfondo {
+        padding: 4% 3%;
+    }
+    #blackfondo .four-column {
+        text-align: left;
+        padding-left: 3%;
+    }
 }
