@@ -18,6 +18,43 @@ body {
 }
 
 
+/*Style the barra de navegación*/
+
+ul {
+    list-style-type: none;
+    font-size: 1.6vw;
+    margin: 0;
+    padding: 0% 20%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.4s;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Style the header */
 
 .header {
@@ -26,7 +63,6 @@ body {
     background-attachment: scroll;
     padding: 10% 2%;
     text-align: center;
-    height: 100vh;
 }
 
 .header h1 {
@@ -161,5 +197,8 @@ body {
     #blackfondo .four-column {
         text-align: left;
         padding-left: 3%;
+    }
+    li {
+        width: 50%;
     }
 }
